@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+sqlalchemy
+gspread
+google-auth
+python-multipart
+requests

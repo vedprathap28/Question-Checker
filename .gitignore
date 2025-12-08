@@ -1,0 +1,51 @@
+# ---------- Python / Virtualenv ----------
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Python build / test ----------
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Secrets (DO NOT COMMIT) ----------
+.env
+*.env
+service_account.json
+credentials.json
+*.pem
+*.key
+
+# If your service file is inside backend specifically
+backend/service_account.json
+backend/credentials.json
+
+# ---------- Database / Local data ----------
+*.db
+*.sqlite3
+
+# (Optional) If you DON'T want to commit your local sqlite file
+backend/questions.db
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
