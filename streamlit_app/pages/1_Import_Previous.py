@@ -5,8 +5,7 @@ import tempfile
 import os
 
 
-
-API_BASE = st.secrets.get("API_BASE_URL", os.getenv("API_BASE_URL", "https://vedprathap28-question-checker-backend.hf.space"))
+API_BASE = st.secrets["API_BASE_URL"]
 
 
 st.set_page_config(page_title="Import Previous Papers", layout="wide")
