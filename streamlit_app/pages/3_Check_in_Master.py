@@ -4,8 +4,7 @@ import requests
 import tempfile
 import os
 
-API_BASE = st.secrets.get("API_BASE_URL", os.getenv("API_BASE_URL", "http://127.0.0.1:8000"))
-
+API_BASE = st.secrets.get("API_BASE_URL", os.getenv("API_BASE_URL", "https://vedprathap28-question-checker-backend.hf.space"))
 
 st.set_page_config(page_title="Check in Master", layout="wide")
 st.title("✅ Check Questions in Master Sheet (Unit-wise)")
